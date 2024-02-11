@@ -12,6 +12,10 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;        /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
+
+#define ICONSIZE 16   /* icon size */
+#define ICONSPACING 5 /* space between icon and title */
+
 static const int user_bh            = 24;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
 static const char *fonts[]          = { "JetBrainsMono-9:weight=semibold:antialias=true:autohint=false", "JetBrainsMono NFP-11:antialias=true:autohint=false" };
 static const char dmenufont[]       = "JetBrainsMono-9:weight=semibold:antialias=true:autohint=false";
